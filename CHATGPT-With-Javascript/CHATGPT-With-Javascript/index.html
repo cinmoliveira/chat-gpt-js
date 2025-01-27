@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Questionamentos ao ChatGPT</title>
+</head>
+<body>
+    <div class="box-question">
+        <div class="header">
+            <p>Questionamentos ao ChatGPT</p>
+        </div>
+        <p id="status"></p><!-- Status id created to generate "Loading" while response is not offered-->
+        <div id="historic">
+            <!-- Chat body -->
+        </div>
+        <div class="footer">
+            <input type="text" placeholder="Faça a sua pergunta aqui." id="message-input">
+            <button id="buttonSubmit" onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
